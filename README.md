@@ -102,7 +102,7 @@ In addition to the web interface, you can also interact with your CRUD project p
 - **List Passengers**: `/passengers/` (GET)
 - **Create Passenger**: `/passengers/` (POST)
 - **Retrieve Passenger**: `/passengers/<passenger_id>/` (GET)
-- **Update Passenger**: `/passengers/<passenger_id>/` (PUT, PATCH)
+- **Update Passenger**: `/passengers/<passenger_id>/` (PUT, )
 - **Delete Passenger**: `/passengers/<passenger_id>/` (DELETE)
 
 Replace `<passenger_id>` with the ID of the passenger you want to retrieve, update, or delete.
