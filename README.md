@@ -18,7 +18,7 @@ PostgreSQL (or any other database you prefer, with respective settings adjustmen
 
 # Setup and Installation
 > Clone the repository:<br> 
-''' git clone <repository-url>
+```git clone <repository-url>
 cd Passenger
 
 # My Python Project
