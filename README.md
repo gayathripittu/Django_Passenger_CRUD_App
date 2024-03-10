@@ -85,6 +85,12 @@ You can also test the API endpoints using Postman, a popular API client. Follow 
 2. Set the request type (GET, POST, PUT, DELETE) and enter the endpoint URL (e.g., `http://localhost:8000/passengers/` for listing all passengers).
 3. Add any necessary headers or request body parameters.
 4. Send the request and inspect the response.
+   
+### Example: GET Request for a Specific Passenger
+
+Here's an example of a GET request to retrieve a specific passenger by ID:
+
+![GET Request](get_request_example.png)
 ### Example: POST Request
 
 Here's an example of a POST request to create a new passenger:
