@@ -83,15 +83,15 @@ WSGI_APPLICATION = 'Passenger.wsgi.application'
 }'''
 
 DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME':  'passenger_DB' ,                               #BASE_DIR / 'db.sqlite3',
-        'USER':'postgres',
-        'PASSWORD':'6210',
-        'HOST':'localhost',
-        'PORT': '5432',
+        'default': {
+            'ENGINE': 'django.db.backends.postgresql',
+            'NAME': 'yourdatabasename',
+            'USER': 'postgres',
+            'PASSWORD': 'yourpassword',
+            'HOST': 'localhost',
+            'PORT': 'yourportnumber',
+        }
     }
-}
 
 # Password validation
 # https://docs.djangoproject.com/en/5.0/ref/settings/#auth-password-validators
