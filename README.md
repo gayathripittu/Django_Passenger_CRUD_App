@@ -106,3 +106,8 @@ In addition to the web interface, you can also interact with your CRUD project p
 - **Delete Passenger**: `/passengers/<passenger_id>/` (DELETE)
 
 Replace `<passenger_id>` with the ID of the passenger you want to retrieve, update, or delete.
+
+## SQL Queries and Sample Data
+
+To help you get started with testing or exploring the database structure, I've provided a SQL file (`passenger_queries.sql`) with sample queries and data.
+
