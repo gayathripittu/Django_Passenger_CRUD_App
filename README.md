@@ -22,15 +22,5 @@ Clone the repository:<br>
 git clone <repository-url>
 cd Passenger
 
-# My Python Project
-
-Welcome to My Python Project! This project showcases some basic Python code.
-
-## Installation
-
-To install this project, you can clone the repository:
-
-```bash
-git clone https://github.com/username/my-python-project.git
 
 
