@@ -20,7 +20,7 @@ PostgreSQL (or any other database you prefer, with respective settings adjustmen
 Clone the repository:<br> 
 ```bash
 git clone <repository-url>
-cd Passenger```
+cd Passenger
 
 # My Python Project
 
