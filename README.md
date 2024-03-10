@@ -19,3 +19,15 @@ PostgreSQL (or any other database you prefer, with respective settings adjustmen
 # Setup and Installation
 Clone the repository:
 
+# My Python Project
+
+Welcome to My Python Project! This project showcases some basic Python code.
+
+## Installation
+
+To install this project, you can clone the repository:
+
+```bash
+git clone https://github.com/username/my-python-project.git
+
+
