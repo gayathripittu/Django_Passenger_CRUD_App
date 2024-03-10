@@ -11,13 +11,15 @@ Delete passenger records
 # Prerequisites
 Ensure you have the following installed:
 
-Python (3.x recommended)
-Django (5.0.2 used in this project)
-Django REST framework
-PostgreSQL (or any other database you prefer, with respective settings adjustments)
+Python (3.x recommended) <br>
+Django (5.0.2 used in this project) <br>
+Django REST framework <br>
+PostgreSQL (or any other database you prefer, with respective settings adjustments) <br>
 
 # Setup and Installation
-Clone the repository:
+> Clone the repository:
+''' git clone <repository-url>
+cd Passenger
 
 # My Python Project
 
