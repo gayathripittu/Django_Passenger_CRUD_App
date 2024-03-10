@@ -17,7 +17,7 @@ Django REST framework <br>
 PostgreSQL (or any other database you prefer, with respective settings adjustments) <br>
 
 # Setup and Installation
-> Clone the repository:<br?
+> Clone the repository:<br> 
 ''' git clone <repository-url>
 cd Passenger
 
