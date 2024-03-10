@@ -77,6 +77,20 @@ Ensure you have the following installed:
 
     After launching the server, navigate to [http://localhost:8000/](http://localhost:8000/) in your preferred web browser. From there, you'll be able to create, read, update, and delete passenger details using the provided function-based views.
 
+## Testing with Postman
+
+You can also test the API endpoints using Postman, a popular API client. Follow these steps to test the endpoints:
+
+1. Open Postman and create a new request.
+2. Set the request type (GET, POST, PUT, DELETE) and enter the endpoint URL (e.g., `http://localhost:8000/passengers/` for listing all passengers).
+3. Add any necessary headers or request body parameters.
+4. Send the request and inspect the response.
+### Example: POST Request
+
+Here's an example of a POST request to create a new passenger:
+
+![POST Request](postman_post_request.png)
+
 ## Admin Interface
 
 Visit [http://localhost:8000/admin/](http://localhost:8000/admin/) to manage passengers using the Django admin site.
