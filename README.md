@@ -17,7 +17,7 @@ Django REST framework <br>
 PostgreSQL (or any other database you prefer, with respective settings adjustments) <br>
 
 ## Setup and Installation
-***
+
 Clone the repository:<br> 
 ```bash
 git clone <repository-url>
@@ -45,3 +45,43 @@ DATABASES = {
     }
 }
 ```
+## Apply migrations:
+
+# Applying Migrations
+
+Once you have set up the project and configured the database, you need to apply migrations to create the necessary database schema. Navigate to the project directory and run the following command:<br>
+
+```bash
+python manage.py makemigrations
+python manage.py migrate
+```
+## Creating a Superuser
+
+To access the Django admin panel and perform administrative tasks, you need to create a superuser account. Run the following command:<br>
+
+```bash
+python manage.py createsuperuser
+```
+## Running the Server
+
+To start the development server and run the application locally, navigate to the project directory and execute the following command:
+
+```bash
+python manage.py runserver
+```
+After launching the server, navigate to http://localhost:8000/ in your preferred web browser. From there, you'll be able to create, read, update, and delete passenger details using the provided function-based views.<br>
+
+* Admin Interface: Visit http://localhost:8000/admin/ to manage passengers using the Django admin site.
+* API Endpoints:
+In addition to the web interface, you can also interact with your CRUD project programmatically through the following API endpoints:<br>
+
+- **List Passengers**: `/passengers/` (GET) <br>
+- **Create Passenger**: `/passengers/` (POST) <br>
+- **Retrieve Passenger**: `/passengers/<passenger_id>/` (GET) <br>
+- **Update Passenger**: `/passengers/<passenger_id>/` (PUT, PATCH) <br>
+- **Delete Passenger**: `/passengers/<passenger_id>/` (DELETE) <br>
+
+Replace `<passenger_id>` with the ID of the passenger you want to retrieve, update, or delete.
+
+
+
